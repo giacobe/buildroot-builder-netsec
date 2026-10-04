@@ -1,0 +1,13 @@
+work/
+artifacts/
+dist/
+*.env
+__pycache__/
+*.pyc
+*.cpio
+*.cpio.gz
+*.img
+*.iso
+*bzImage
+*.bzImage
+*.zip

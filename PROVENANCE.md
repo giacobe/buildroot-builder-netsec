@@ -1,0 +1,1 @@
+01 setup, 03 payload packaging, and Python newc packager adapted from giacobe/buildroot-builder2 local working copy based on commit a1e9c63dda6cf2fe2c242eaa59b114e671213319. Original builder is unchanged. Its GitHub repository identifies GPL-3.0 licensing. New stage 02 consumes independent NetSec config repositories.
