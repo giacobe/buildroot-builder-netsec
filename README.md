@@ -40,3 +40,7 @@ For the [platform](https://github.com/giacobe/netsec-generic-web), rename output
 ## Provenance and licenses
 
 See PROVENANCE.md. The setup and payload packaging scripts were adapted from builder2; its original repository identifies GPL-3.0. See LICENSE. Buildroot and guest packages have their own licenses. The numbered scripts intentionally remain distinct from builder2.
+
+## Validation of this publication
+
+Shell syntax and command-line help checks passed; both profiles resolved against Buildroot 2025.02.15 with their required packages and independent kernels. The payload regression test verifies preserved device nodes, executable permissions, and unchanged kernel bytes. Run `python3 tests/test_packager.py` to repeat it. A complete fresh toolchain/desktop compilation has not been repeated as part of publishing; the configurations and payloads derive from the running tested lab baseline.
